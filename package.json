@@ -16,7 +16,11 @@
   "main": "index.js",
   "scripts": {
     "desktop": "cypress run --config-file cypress.config.js",
-    "testDashboard":"npx cypress run --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5"
+    "testDashboard":"npx cypress run --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5",
+
+    "cy:homePage":"cypress run --group homePage --ci-build-id 5 --spec cypress/e2e/homePage.cy.js --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5",
+    "cy:loginAdmin":"cypress run --group loginAdmin --ci-build-id 5 --spec cypress/e2e/loginAdmin.cy.js --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5",
+    "cy:movieBooking":"cypress run --group movieBooking --ci-build-id 5 --spec cypress/e2e/movieBooking.cy.js --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5"
   },
   "keywords": [
     "test",
