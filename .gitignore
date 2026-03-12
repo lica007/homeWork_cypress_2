@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Cypress артефакты
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+
+cypress/results/
+cypress/**/*.report.json
+cypress.env.json
+.env
+.env.*
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.iml
+
+# ОС
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+{
+  "name": "homework_cypress_2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lica007/homeWork_cypress_2#readme",
+  "bugs": {
+    "url": "https://github.com/lica007/homeWork_cypress_2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lica007/homeWork_cypress_2.git"
+  },
+  "license": "ISC",
+  "author": "Anastasia Borodina",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "desktop": "cypress run --config-file cypress.config.js",
+    "testDashboard":"npx cypress run --record --key c09ba7e0-d099-4146-9574-99bfd7f30ac5"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "dependencies": {
+    "cypress": "^15.11.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "homePage": {
+    "nav": {
+      "day": ".page-nav__day"
+    },
+    "movies": {
+      "movie": ".movie",
+      "movieDescription": ".movie__description",
+      "title": ".movie__title",
+      "synopsis": ".movie__synopsis",
+      "duration": ".movie__data-duration",
+      "origin": ".movie__data-origin"
+    },
+    "home": {
+      "hallTitle": "h3.movie-seances__hall-title",
+      "hallBlock": ".movie-seances__hall",
+      "seanceTime": "a.movie-seances__time"
+    },
+    "booking": {
+      "scheme": ".buying-scheme",
+      "schemeWrapper": ".buying-scheme__wrapper"
+    },
+    "ticket": {
+      "title": "h2.ticket__check-title"
+    }
+  }, 
+  "AdminPage": {
+    "email":"input[name = 'email']",
+    "passvord": "input[name = 'password']",
+    "hallsListItems": ".conf-step__wrapper .conf-step__list li"
+  },
+  "errorAuthorization": {
+    "body": "body"
+  },
+  "adminPanel": {
+    "listHall":"conf-step__list"
+  }
+}
